@@ -1,0 +1,9 @@
+.home
+{
+    display: flex;
+}
+
+.home-contianer
+{
+   flex: 14;
+}

@@ -1,0 +1,46 @@
+.side-menu
+{   
+    
+    flex: 1;
+    min-height: 100vh;
+    background: #1a1a1a;
+}
+
+.center
+{
+    padding-left: 10px;
+}
+.ul-item
+{
+    margin: 0;
+    padding: 0;
+}
+
+.ul-item li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+.ul-item li:hover , .ul-item li:focus 
+{
+    background-color: rgb(150, 150, 150);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+.icon
+{
+    font-size: 30px;
+    color: aliceblue;
+}

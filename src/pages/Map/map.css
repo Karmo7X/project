@@ -1,0 +1,17 @@
+.map
+{
+    display: flex;
+}
+
+.map-contianer
+{
+    flex: 14;
+    
+    border-radius: 20px;
+}
+
+
+iframe
+{
+    border-radius: 20px;
+}

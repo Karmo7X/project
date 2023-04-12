@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 4.10149C5.69989 4.22937 4.82475 4.51839 4.17157 5.17157C3 6.34315 3 8.22876 3 12C3 15.7712 3 17.6569 4.17157 18.8284C5.34315 20 7.22876 20 11 20H13C16.7712 20 18.6569 20 19.8284 18.8284C21 17.6569 21 15.7712 21 12C21 8.22876 21 6.34315 19.8284 5.17157C19.1752 4.51839 18.3001 4.22938 17 4.10149L17 6.5C17 7.32843 16.3284 8 15.5 8C14.6716 8 14 7.32843 14 6.5L14 4.00093C13.6822 4 13.3492 4 13 4H11C10.6508 4 10.3178 4 10 4.00093L10 6.5C10 7.32843 9.32843 8 8.50001 8C7.67158 8 7 7.32843 7 6.5L7 4.10149Z" fill="#2B2B2B"/>
+<path d="M8.5 2.5L8.5 6.5" stroke="#2B2B2B" stroke-linecap="round"/>
+<path d="M15.5 2.5L15.5 6.5" stroke="#2B2B2B" stroke-linecap="round"/>
+<circle cx="7.5" cy="10.5" r="0.5" fill="white"/>
+<circle cx="10.5" cy="10.5" r="0.5" fill="white"/>
+<circle cx="13.5" cy="10.5" r="0.5" fill="white"/>
+<circle cx="16.5" cy="10.5" r="0.5" fill="white"/>
+<circle cx="7.5" cy="13.5" r="0.5" fill="white"/>
+<circle cx="10.5" cy="13.5" r="0.5" fill="white"/>
+<circle cx="13.5" cy="13.5" r="0.5" fill="white"/>
+<circle cx="16.5" cy="13.5" r="0.5" fill="white"/>
+<circle cx="7.5" cy="16.5" r="0.5" fill="white"/>
+<circle cx="10.5" cy="16.5" r="0.5" fill="white"/>
+<circle cx="13.5" cy="16.5" r="0.5" fill="white"/>
+<circle cx="16.5" cy="16.5" r="0.5" fill="white"/>
+</svg>
