@@ -1,0 +1,10 @@
+.fav
+{
+    display: flex;
+}
+
+.fav-contianer
+{
+   flex: 14;
+   
+}
