@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <Sidemenu/>
       <div className="home-contianer">
-        home page
+        <h1 className="text-white">Home page</h1>
       </div>
     </div>
 
