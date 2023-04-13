@@ -18,10 +18,10 @@ const Sidemenu = () => {
                 <Link to="/map"> <FaMap  className="icon"/></Link>
             </li>
             <li>
-                <Link to="/"> <BiSearchAlt  className="icon"/></Link>
+                <Link to="/search"> <BiSearchAlt  className="icon"/></Link>
             </li>
             <li>
-                <Link to="/"> <AiOutlineHeart  className="icon"/></Link>
+                <Link to="/fav"> <AiOutlineHeart  className="icon"/></Link>
             </li>
             <li>
                 <Link to="/profile"> <CgProfile  className="icon"/></Link>
