@@ -1,0 +1,84 @@
+.booking
+{
+    display: flex;
+    
+}
+
+.booking-contianer
+{
+   flex: 14;
+   background-color: #fff;
+   border-radius: 20px;
+   display: flex;
+   
+}
+
+.show-data
+{
+    background: #000;
+    width: 30%;
+}
+
+.booking-sec
+{
+    width: 70%;
+}
+
+.booking-sec h2
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.list
+{
+    margin-left: 50px;
+}
+
+
+.option
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+.option p{
+
+    background-color: orange;
+    border-radius: 50%;
+    padding: 9px;
+    font-size: 14px;
+    color: #ffff;
+
+
+}
+
+
+
+.option button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background: transparent;
+    border: none;
+}
+
+.icon-option
+{    
+    font-size: 30px;
+    color: orange;
+     
+}
+
+
+.active
+{
+    color: orange !important;
+}

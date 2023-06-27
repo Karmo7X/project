@@ -1,0 +1,95 @@
+.contianer-date
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+.date
+{
+    width: 100px;
+    
+}
+
+.time
+{
+    width: 10px;
+    margin-left: 14rem;
+}
+.time-field , .date-field
+{
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   margin-bottom: 10px;
+
+}
+
+.time-field .icons, .date-field .icons
+{
+  color: black;
+}
+
+
+
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-actionBar ,.css-16b5y55-MuiPickersLayout-contentWrapper
+{
+    display: none !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border: none !important;
+    outline: none !important;
+    
+}
+
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root
+{
+    font-weight: bold !important;
+
+}
+
+
+ .css-trxt40-MuiTimePickerToolbar-hourMinuteLabel ,.css-88nwcr-MuiPickersToolbar-root-MuiTimePickerToolbar-root ,.css-jhsfre-MuiGrid-root-MuiPickersToolbar-content
+{
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    
+}
+
+
+
+
+.css-ihhycx-MuiTimePickerToolbar-amPmSelection
+{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-right: 20px !important;
+    margin-top: 10px !important;
+    gap: 30px;
+  
+    border-radius: 10px;
+    padding-left: 5px; 
+    padding-right: 5px;
+   
+}
+
+.css-7kirvq-MuiTypography-root-MuiPickersToolbarText-root.Mui-selected ,.css-mvmxd9-MuiTypography-root-MuiPickersToolbarText-root.Mui-selected
+{
+   color: #ffffff !important;
+   background-color: black;
+   padding: 10px;
+   width: 100%;
+   border-radius: 10px;
+}
+
+
+
+.css-qa7bje-MuiButtonBase-root-MuiPickersDay-root.Mui-selected
+{
+    background-color: red !important;
+    
+}

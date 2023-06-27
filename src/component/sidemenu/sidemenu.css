@@ -6,8 +6,15 @@
     background: #1a1a1a;
 }
 
+.top
+{
+     margin-left: 30px;
+     margin-top: 40px;
+}
+
 .center
 {
+     margin-top: 6rem;
     padding-left: 10px;
 }
 .ul-item
@@ -22,7 +29,7 @@
     cursor: pointer;
     padding: 10px;
     
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 
@@ -34,13 +41,8 @@
 }
 
 
-
-
-
-
-
 .icon
 {
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
 }

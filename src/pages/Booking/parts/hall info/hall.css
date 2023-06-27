@@ -1,0 +1,67 @@
+.Hall_info
+{
+    margin-left: 4rem;
+}
+
+
+.package-input , .Hall-input
+{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.icon-input
+{
+    font-size: 25px;
+}
+
+
+.package-input input ,.Hall-input input
+{
+    font-weight: bold;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+
+}
+
+.package-option
+{
+    display: flex;
+    gap: 50px;
+}
+
+.package-option input
+{
+    padding: 5px;
+    outline: none;
+    border: none;   
+    font-weight: bold;
+}
+
+
+
+.action
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+.btn
+{
+  padding: 4px;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: #ffffff;
+}
+
+
+

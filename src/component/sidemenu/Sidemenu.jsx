@@ -5,10 +5,15 @@ import { CgHomeAlt , CgProfile} from "react-icons/cg"
 import { FaMap } from "react-icons/fa"
 import { BiSearchAlt ,BiMenuAltLeft } from "react-icons/bi"
 import { AiOutlineHeart } from "react-icons/ai"
+import  { IoLogoXing } from "react-icons/io"
+
 
 const Sidemenu = () => {
   return (
     <div className='side-menu'>
+      <div className="top">
+        <Link to="/Booking"><IoLogoXing className='icon'/></Link>
+      </div>
       <div className="center">
         <ul className='ul-item'>
             <li>

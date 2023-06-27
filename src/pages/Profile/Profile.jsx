@@ -8,6 +8,7 @@ import { IoIosInformationCircleOutline } from 'react-icons/io'
 import { IoCalendar } from 'react-icons/io5'
 import  { MdReviews } from 'react-icons/md'
 import { Link } from 'react-router-dom'
+
 const Profile = () => {
 
 
@@ -68,7 +69,7 @@ const Profile = () => {
       <Sidemenu />
       <div className="profile-contianer">
         <div className="container">
-          <div className="avatar d-flex align-items-center justify-content-center mt-5 gap-5 mb-5">
+          <div className="avatar">
             <img src={avatar} alt="" />
             <div className="details">
               <h2>Khaled Noor</h2>
@@ -79,19 +80,19 @@ const Profile = () => {
           <hr />
           <div className="center-profile ">
             <ul className="d-flex  justify-content-center gap-5 prof-item">
-              <li>
+              <li className="prof_options">
                 <IoIosInformationCircleOutline className="icons" />
                 <Link to="" className="info  ">
                   Information
                 </Link>
               </li>
-              <li>
+              <li  className="prof_options">
                 <IoCalendar className="icons" />
                 <Link to="" className="info ">
                   Reservation
                 </Link>
               </li>
-              <li>
+              <li  className="prof_options">
                 <MdReviews className="icons" />
                 <Link to="" className="info ">
                   Reviews
@@ -100,14 +101,14 @@ const Profile = () => {
             </ul>
           </div>
 
-          <div className="row">
+          <div className="boxs">
 
             {data.map(({desc,cover})=>
             {
               return(
-                <div className="col-sm-6 col-md-3 col-lg-4 ">
-                <div className='d-flex '>
-                <div className="box d-flex mb-4  p-2">
+                
+                
+                <div className="box">
                <div className="left">
                  <img src={cover} alt="" />
                  <h3 className="mt-4">Name of place </h3>
@@ -117,16 +118,16 @@ const Profile = () => {
                    <p className="box-info">
                       {desc}
                     </p>
-                   <div className="d-flex gap-5">
+                   <div className="review">
                      <ReactStars count={5} size={20} activeColor="#ffd700" />
-                     <p className="fs-6 mt-2">5days</p>
+                     <p >5days</p>
                    </div>
                  </div>
                </div>
              </div>
-             </div>
              
-           </div>
+             
+           
               )
             })}
  
